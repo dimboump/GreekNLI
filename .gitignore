@@ -1,0 +1,65 @@
+# Custom exclusions
+do_not_*/
+notes/
+*latex*/
+
+citations.json
+data/**/reddit_ell_eng.csv
+data/**/reddit_ell_eng_raw_*.csv
+
+
+*.txt
+*.docx
+*.xlsx
+*.pptx
+*.pdf
+**/[^img]/*.png
+**/[^img]/*.jpg
+**/[^img]/*.jpeg
+*.zip
+*.tar
+*.gz
+
+# Model training outputs
+**/*/runs/
+cache_dir/
+logs/
+outputs/
+checkpoint-*/
+wandb/
+
+# Workspace settings
+.vscode/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.cache
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# IPython / Jupyter
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+__pypackages__/
+
+# Environments
+.venv
+venv/
+venv.bak/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pre-commit
+.cache/
