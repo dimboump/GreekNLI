@@ -1,0 +1,12 @@
+huggingface-hub==0.11.1
+ipykernel==6.19.4
+matplotlib==3.6.2
+numpy==1.24.1
+openai==0.26.0
+pandas==1.5.2
+scikit-learn==1.2.0
+seaborn==0.12.2
+spacy==3.4.4
+torch==1.13.1+cu116
+transformers==4.25.1
+wandb==0.13.7
