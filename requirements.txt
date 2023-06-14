@@ -8,5 +8,5 @@ scikit-learn==1.2.0
 seaborn==0.12.2
 spacy==3.4.4
 torch==1.13.1+cu116
-transformers==4.25.1
+transformers==4.30.0
 wandb==0.13.7
